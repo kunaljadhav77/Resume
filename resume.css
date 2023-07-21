@@ -1,0 +1,40 @@
+body{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    
+    .header{
+        text-align: center;
+    }
+    
+    .education-list li {
+        list-style-type: none;  
+     }
+     .education-list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4;
+     }
+    
+    .info{
+        display: flex;
+       flex-direction: column;
+    }
+    @media only screen and (max-width:600px){
+        •contact{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            .education-list{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;}
+            .infol display: flex;
+            flex-direction: column;}
+
+    }
+
+
+  
